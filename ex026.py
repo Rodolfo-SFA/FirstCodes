@@ -1,0 +1,5 @@
+frase = str(input('Escreva uma Frase: ')).upper().strip()
+print('Quantas vezes tem a letra A: {}'.format(frase.count('A')))
+print('Onde está a primeira letra A: {}'.format(frase.find('A')+1))
+print('Onde está a última letra A: {}'.format(frase.rfind('A')+1))
+print(len(frase))

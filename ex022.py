@@ -1,0 +1,12 @@
+nome = str(input('Nome Inteiro: ')).strip()
+max = nome.upper()
+min = nome.lower()
+div = nome.split()
+consolida = ''.join(div)
+cont = len(consolida)
+pnome = len(div[0])
+
+print('Nome Maisculo: {}'.format(max))
+print('Nome Minusculo: {}'.format(min))
+print('Nº de Letras: {}'.format(cont))
+print('Nº de Letras no 1º Nome: {}'.format(pnome))
